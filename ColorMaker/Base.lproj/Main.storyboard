@@ -79,12 +79,50 @@
                                 <color key="textColor" red="0.44780408402161659" green="0.33627783544155893" blue="0.95732868020304573" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="12p-A0-ehI">
+                                <rect key="frame" x="71.5" y="26" width="232" height="16"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="made with ">
+                                        <attributes>
+                                            <font key="NSFont" size="13" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="❤️">
+                                        <attributes>
+                                            <font key="NSFont" size="13" name=".AppleColorEmojiUI"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" &amp; ">
+                                        <attributes>
+                                            <font key="NSFont" size="13" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="☕️">
+                                        <attributes>
+                                            <font key="NSFont" size="13" name=".AppleColorEmojiUI"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" by Jasmeet Singh">
+                                        <attributes>
+                                            <font key="NSFont" size="13" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="oSP-h3-ODJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="108" id="Dbq-fK-gRY"/>
                             <constraint firstItem="HvX-hZ-NWr" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="KY2-Gz-NnE"/>
                             <constraint firstItem="HvX-hZ-NWr" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Mhg-sw-90k"/>
+                            <constraint firstItem="12p-A0-ehI" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Nkx-hS-wJf"/>
+                            <constraint firstItem="12p-A0-ehI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="6" id="ajD-85-6Sl"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="oSP-h3-ODJ" secondAttribute="bottom" constant="50" id="dkk-5v-7wU"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oSP-h3-ODJ" secondAttribute="trailing" constant="108" id="hwP-fc-Ehz"/>
                         </constraints>
